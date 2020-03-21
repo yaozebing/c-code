@@ -1,0 +1,5 @@
+﻿  test.c
+d:\c++\c-code\3_21\3_21\test.c(79): warning C4018: “<”: 有符号/无符号不匹配
+d:\c++\c-code\3_21\3_21\test.c(101): warning C4018: “<”: 有符号/无符号不匹配
+d:\c++\c-code\3_21\3_21\test.c(109): warning C4715: “MyStrncat”: 不是所有的控件路径都返回值
+  3_21.vcxproj -> D:\c++\c-code\3_21\Debug\3_21.exe
