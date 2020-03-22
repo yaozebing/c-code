@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 
-#define Max 1000
+#define CH 100
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -14,13 +14,16 @@ typedef struct personInfo
 typedef struct addrbook
 {
 	int num;
-	personInfo person[Max];
+	personInfo* person;
+	int capcity;
 }addrbook;
 void Init(addrbook* book)
 {
 	book->num = 0;
+	book->capcity = 1000;
+	book->person = (personInfo*)malloc(book->capcity * sizeof(personInfo));
 	int i = 0;
-	for (i = 0; i < 128; i++)
+	for (i = 0; i < book->capcity; i++)
 	{
 		strcpy(book->person[i].name, " ");
 		book->person[i].age = 0;
@@ -46,12 +49,19 @@ int menu()
 	scanf("%d", &choice);
 	return choice;
 }
+void Bigger(addrbook* book)
+{
+	book->capcity += 100;
+	personInfo* newperson = (personInfo*)malloc(book->capcity * sizeof(personInfo));
+	memcpy(newperson, book, book->num * sizeof(personInfo));
+	free(book->person);
+	book->person = newperson;
+}
 void Add(addrbook* book)
 {
-	if (book->num >= Max)
+	if (book->num >= book->capcity)
 	{
-		printf("the book is full\n");
-		return 0;
+		Bigger(book);
 	}
 	personInfo* Info = &book->person[book->num];
 	printf("Add personInfo!\n");

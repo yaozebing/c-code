@@ -1,18 +1,17 @@
 ﻿  test.c
-d:\c++\c-code\3_16\3_16\test.c(54): warning C4098: “Add”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(61): warning C4129: “W”: 不可识别的字符转义序列
-d:\c++\c-code\3_16\3_16\test.c(76): warning C4098: “Delete”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(80): warning C4129: “h”: 不可识别的字符转义序列
-d:\c++\c-code\3_16\3_16\test.c(86): warning C4133: “函数”: 从“personInfo *”到“const char *”的类型不兼容
-d:\c++\c-code\3_16\3_16\test.c(104): warning C4098: “Find”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(108): warning C4129: “h”: 不可识别的字符转义序列
-d:\c++\c-code\3_16\3_16\test.c(113): warning C4133: “函数”: 从“personInfo *”到“const char *”的类型不兼容
-d:\c++\c-code\3_16\3_16\test.c(130): warning C4098: “Modify”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(139): warning C4098: “Modify”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(164): warning C4098: “Show”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(176): warning C4129: “N”: 不可识别的字符转义序列
-d:\c++\c-code\3_16\3_16\test.c(187): warning C4098: “Clear”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(196): warning C4098: “Sort”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(200): warning C4098: “Sort”:“void”函数返回值
-d:\c++\c-code\3_16\3_16\test.c(227): warning C4133: “初始化”: 从“void (__cdecl *)(addrbook *)”到“func”的类型不兼容
+d:\c++\c-code\3_16\3_16\test.c(71): warning C4129: “W”: 不可识别的字符转义序列
+d:\c++\c-code\3_16\3_16\test.c(86): warning C4098: “Delete”:“void”函数返回值
+d:\c++\c-code\3_16\3_16\test.c(90): warning C4129: “h”: 不可识别的字符转义序列
+d:\c++\c-code\3_16\3_16\test.c(96): warning C4133: “函数”: 从“personInfo *”到“const char *”的类型不兼容
+d:\c++\c-code\3_16\3_16\test.c(114): warning C4098: “Find”:“void”函数返回值
+d:\c++\c-code\3_16\3_16\test.c(118): warning C4129: “h”: 不可识别的字符转义序列
+d:\c++\c-code\3_16\3_16\test.c(123): warning C4133: “函数”: 从“personInfo *”到“const char *”的类型不兼容
+d:\c++\c-code\3_16\3_16\test.c(140): warning C4098: “Modify”:“void”函数返回值
+d:\c++\c-code\3_16\3_16\test.c(149): warning C4098: “Modify”:“void”函数返回值
+d:\c++\c-code\3_16\3_16\test.c(174): warning C4098: “Show”:“void”函数返回值
+d:\c++\c-code\3_16\3_16\test.c(186): warning C4129: “N”: 不可识别的字符转义序列
+d:\c++\c-code\3_16\3_16\test.c(197): warning C4098: “Clear”:“void”函数返回值
+d:\c++\c-code\3_16\3_16\test.c(206): warning C4098: “Sort”:“void”函数返回值
+d:\c++\c-code\3_16\3_16\test.c(210): warning C4098: “Sort”:“void”函数返回值
+d:\c++\c-code\3_16\3_16\test.c(237): warning C4133: “初始化”: 从“void (__cdecl *)(addrbook *)”到“func”的类型不兼容
   3_16.vcxproj -> D:\c++\c-code\3_16\Debug\3_16.exe
