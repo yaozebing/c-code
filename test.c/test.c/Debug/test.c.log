@@ -1,0 +1,20 @@
+﻿  源.c
+d:\c++\c-code\test.c\test.c\源.c(85): warning C4098: “Load”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(102): warning C4098: “Load”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(111): warning C4098: “Save”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(119): warning C4098: “Save”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(179): warning C4129: “W”: 不可识别的字符转义序列
+d:\c++\c-code\test.c\test.c\源.c(209): warning C4098: “Delete”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(217): warning C4129: “h”: 不可识别的字符转义序列
+d:\c++\c-code\test.c\test.c\源.c(229): warning C4133: “函数”: 从“personInfo *”到“const char *”的类型不兼容
+d:\c++\c-code\test.c\test.c\源.c(265): warning C4098: “Find”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(273): warning C4129: “h”: 不可识别的字符转义序列
+d:\c++\c-code\test.c\test.c\源.c(283): warning C4133: “函数”: 从“personInfo *”到“const char *”的类型不兼容
+d:\c++\c-code\test.c\test.c\源.c(317): warning C4098: “Modify”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(335): warning C4098: “Modify”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(385): warning C4098: “Show”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(409): warning C4129: “N”: 不可识别的字符转义序列
+d:\c++\c-code\test.c\test.c\源.c(431): warning C4098: “Clear”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(449): warning C4098: “Sort”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(457): warning C4098: “Sort”:“void”函数返回值
+  test.c.vcxproj -> D:\c++\c-code\test.c\Debug\test.c.exe
