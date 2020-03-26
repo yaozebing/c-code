@@ -17,4 +17,5 @@ d:\c++\c-code\test.c\test.c\源.c(409): warning C4129: “N”: 不可识别的�
 d:\c++\c-code\test.c\test.c\源.c(431): warning C4098: “Clear”:“void”函数返回值
 d:\c++\c-code\test.c\test.c\源.c(449): warning C4098: “Sort”:“void”函数返回值
 d:\c++\c-code\test.c\test.c\源.c(457): warning C4098: “Sort”:“void”函数返回值
+d:\c++\c-code\test.c\test.c\源.c(511): warning C4133: “初始化”: 从“void (__cdecl *)(addrbook *)”到“func”的类型不兼容
   test.c.vcxproj -> D:\c++\c-code\test.c\Debug\test.c.exe

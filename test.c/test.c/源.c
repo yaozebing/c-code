@@ -498,57 +498,57 @@ void Sort(addrbook* book)
 
 }
 
-//int main()
-//
-//{
-//
-//	addrbook my_book;
-//
-//	Init(&my_book);
-//	Load(&my_book);
-//	typedef (*func)(addrbook*);
-//
-//	func oprate[] = { NULL,Add,Delete,Find,Modify,Show,Clear,Sort };
-//
-//	while (1)
-//
-//	{
-//
-//		int choice = menu();
-//
-//		if (choice == 0)
-//
-//		{
-//
-//			Save(&my_book);
-//			break;
-//
-//		}
-//
-//		else if (choice < 0 || choice>7)
-//
-//		{
-//
-//			printf("input wrong\n");
-//
-//			continue;
-//
-//		}
-//
-//		oprate[choice](&my_book);
-//
-//	}
-//
-//	return 0;
-//
-//}
-
 int main()
+
 {
-	int c;
-	while ((c = fgetc(stdin)) != EOF)
+
+	addrbook my_book;
+
+	Init(&my_book);
+	Load(&my_book);
+	typedef (*func)(addrbook*);
+
+	func oprate[] = { NULL,Add,Delete,Find,Modify,Show,Clear,Sort };
+
+	while (1)
+
 	{
-		fputc(c, stdout);
+
+		int choice = menu();
+
+		if (choice == 0)
+
+		{
+
+			Save(&my_book);
+			break;
+
+		}
+
+		else if (choice < 0 || choice>7)
+
+		{
+
+			printf("input wrong\n");
+
+			continue;
+
+		}
+
+		oprate[choice](&my_book);
+
 	}
+
 	return 0;
+
 }
+
+//int main()
+//{
+//	int c;
+//	while ((c = fgetc(stdin)) != EOF)
+//	{
+//		fputc(c, stdout);
+//	}
+//	return 0;
+//}
