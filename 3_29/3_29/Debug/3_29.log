@@ -1,0 +1,14 @@
+﻿  源.c
+d:\c++\c-code\3_29\3_29\seqlist.h(20): warning C4098: “SeqListInit”:“void”函数返回值
+d:\c++\c-code\3_29\3_29\seqlist.h(30): warning C4098: “SeqListDestory”:“void”函数返回值
+d:\c++\c-code\3_29\3_29\seqlist.h(39): warning C4098: “SeqListPrint”:“void”函数返回值
+d:\c++\c-code\3_29\3_29\seqlist.h(43): warning C4018: “<”: 有符号/无符号不匹配
+d:\c++\c-code\3_29\3_29\seqlist.h(54): warning C4098: “SeqlistCapcity”:“void”函数返回值
+d:\c++\c-code\3_29\3_29\seqlist.h(59): warning C4022: “realloc”: 指针与实参 1 不匹配
+d:\c++\c-code\3_29\3_29\seqlist.h(72): warning C4098: “SeqListInsert”:“void”函数返回值
+d:\c++\c-code\3_29\3_29\seqlist.h(77): warning C4018: “>”: 有符号/无符号不匹配
+d:\c++\c-code\3_29\3_29\seqlist.h(93): warning C4098: “SeqListErase”:“void”函数返回值
+d:\c++\c-code\3_29\3_29\seqlist.h(98): warning C4018: “<”: 有符号/无符号不匹配
+d:\c++\c-code\3_29\3_29\seqlist.h(164): warning C4018: “<”: 有符号/无符号不匹配
+d:\c++\c-code\3_29\3_29\seqlist.h(173): warning C4715: “SeqListFind”: 不是所有的控件路径都返回值
+  3_29.vcxproj -> D:\c++\c-code\3_29\Debug\3_29.exe
