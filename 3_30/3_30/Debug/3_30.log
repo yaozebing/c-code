@@ -1,4 +1,5 @@
 ﻿  源.c
-d:\c++\c-code\3_30\3_30\slist.h(226): warning C4098: “SListPopFront”:“void”函数返回值
-d:\c++\c-code\3_30\3_30\slist.h(260): warning C4715: “SListFind”: 不是所有的控件路径都返回值
-  3_30.vcxproj -> D:\c++\c-code\3_30\Debug\3_30.exe
+d:\c++\c-code\3_30\3_30\slist.h(327): warning C4033: “removeElements”必须返回值
+d:\c++\c-code\3_30\3_30\slist.h(342): warning C4716: “removeElements”: 必须返回一个值
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+D:\c++\c-code\3_30\Debug\3_30.exe : fatal error LNK1120: 1 个无法解析的外部命令
