@@ -1,6 +1,6 @@
 ﻿  源2.c
-d:\c++\c-code\4_7\4_7\list.h(37): warning C4098: “ListPrint”:“void”函数返回值
-d:\c++\c-code\4_7\4_7\list.h(62): warning C4098: “ListPopBack”:“void”函数返回值
-d:\c++\c-code\4_7\4_7\list.h(88): warning C4098: “ListPopFront”:“void”函数返回值
-d:\c++\c-code\4_7\4_7\list.h(112): warning C4715: “ListFind”: 不是所有的控件路径都返回值
+d:\c++\c-code\4_7\4_7\list.h(47): warning C4098: “ListPrint”:“void”函数返回值
+d:\c++\c-code\4_7\4_7\list.h(72): warning C4098: “ListPopBack”:“void”函数返回值
+d:\c++\c-code\4_7\4_7\list.h(98): warning C4098: “ListPopFront”:“void”函数返回值
+d:\c++\c-code\4_7\4_7\list.h(122): warning C4715: “ListFind”: 不是所有的控件路径都返回值
   4_7.vcxproj -> D:\c++\c-code\4_7\Debug\4_7.exe
