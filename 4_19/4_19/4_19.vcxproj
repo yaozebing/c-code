@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="text.c" />
     <ClCompile Include="源.c" />
   </ItemGroup>
   <ItemGroup>
