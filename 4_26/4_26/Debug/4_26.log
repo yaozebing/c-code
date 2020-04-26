@@ -1,0 +1,6 @@
+﻿  源.c
+d:\c++\c-code\4_26\4_26\btree.h(4): warning C4028: 形参 2 与声明不同
+d:\c++\c-code\4_26\4_26\btree.h(4): warning C4029: 声明的形参表不同于定义
+d:\c++\c-code\4_26\4_26\btree.h(37): warning C4047: “return”:“int”与“void *”的间接级别不同
+d:\c++\c-code\4_26\4_26\btree.h(95): warning C4098: “BinaryTreeInOrder”:“void”函数返回值
+  4_26.vcxproj -> D:\c++\c-code\4_26\Debug\4_26.exe
