@@ -1,0 +1,4 @@
+﻿  源.c
+d:\c++\c-code\4_30\4_30\sort_c.c(4): warning C4028: 形参 2 与声明不同
+d:\c++\c-code\4_30\4_30\sort_c.c(4): warning C4029: 声明的形参表不同于定义
+  4_30.vcxproj -> D:\c++\c-code\4_30\Debug\4_30.exe
