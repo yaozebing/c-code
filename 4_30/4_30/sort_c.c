@@ -1,6 +1,99 @@
 #pragma once
 #include"sort.h"
 
+typedef int QuDataType;
+// 链式结构：表示队列 
+typedef struct QListNode
+{
+	struct QListNode* _next;
+	QDataType _data;
+}QueueNode;
+// 队列的结构 
+typedef struct Queue
+{
+	QueueNode* _front;
+	QueueNode* _rear;
+}Queue;
+
+QueueNode * BuyQueueNode(QuDataType x)
+{
+	QueueNode * cur = (QueueNode *)malloc(sizeof(QueueNode));
+	cur->_data = x;
+	cur->_next = NULL;
+	return cur;
+}
+
+void QueueInit(Queue* q)
+{
+	q->_front = NULL;
+	q->_rear = NULL;
+}
+
+void QueuePush(Queue* q, QuDataType x)
+{
+	QueueNode * cur = BuyQueueNode(x);
+
+	if (q->_front == NULL)
+	{
+		q->_front = q->_rear = cur;
+	}
+	else
+	{
+		q->_rear->_next = cur;
+		q->_rear = cur;
+	}
+}
+
+void QueuePop(Queue* q)
+{
+	if (q->_front == NULL)
+	{
+		return;
+	}
+	QueueNode* tmp = q->_front->_next;
+	free(q->_front);
+	q->_front = tmp;
+}
+
+QuDataType QueueFront(Queue* q)
+{
+	return q->_front->_data;
+}
+
+QuDataType QueueBack(Queue* q)
+{
+	return q->_rear->_data;
+}
+
+int QueueEmpty(Queue* q)
+{
+	return q->_front == NULL;
+}
+
+int QueueSize(Queue* q)
+{
+	QListNode * cur;
+	int count = 0;
+	for (cur = q->_front; cur; cur = cur->_next)
+	{
+		count++;
+	}
+	return count;
+}
+
+void QueueDestory(Queue* q)
+{
+	if (q->_front == NULL)
+	{
+		return;
+	}
+
+	while (q->_front)
+	{
+		QueuePop(q);
+	}
+}
+
 void swap(int* array,int num1, int num2) {
 	int tmp = array[num1];
 	array[num1] = array[num2];
@@ -180,4 +273,27 @@ void QuickSort(int* a, int left, int right) {
 	int keypos = PartSort3(a, left, right);
 	QuickSort(a, left, keypos - 1);
 	QuickSort(a, keypos + 1, right);
+}
+
+void QuickSort(int* a, int left, int right) {
+	Queue q;
+	QueueInit(&q);
+	QueuePush(&q, left);
+	QueuePush(&q, right);
+	int keypos = PartSort3(a, left, right);
+	while (QueueEmpty(&q)) {
+		int begin = QueueFront(&q);
+		QueuePop(&q);
+		int end = QueueBack(&q);
+		QueuePop(&q);
+		int key = PartSort3(a, begin, end);
+		if (begin < key - 1) {
+			QueuePush(&q, begin);
+			QueuePush(&q, key - 1);
+		}
+		if (end > key + 1) {
+			QueuePush(&q, key + 1);
+			QueuePush(&q, end);
+		}
+	}
 }
