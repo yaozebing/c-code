@@ -18,7 +18,13 @@
     <ClCompile Include="源.c">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
-    <ClCompile Include="sort.c">
+    <ClCompile Include="stack.c">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_bing.c">
+      <Filter>资源文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.c">
       <Filter>资源文件\源文件</Filter>
     </ClCompile>
   </ItemGroup>

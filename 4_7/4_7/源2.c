@@ -330,31 +330,32 @@ int main()
 	ListPushBack(list, 8);
 	ListPrint(list);
 
-	ListPopBack(list);
-	ListPrint(list);
-	ListPopBack(list);
-	ListPrint(list);
 
-	ListPopFront(list);
-	ListPrint(list);
-	ListPopFront(list);
-	ListPrint(list);
+	//ListPopBack(list);
+	//ListPrint(list);
+	//ListPopBack(list);
+	//ListPrint(list);
 
-	printf("%d\n", list->_next->_data);
+	//ListPopFront(list);
+	//ListPrint(list);
+	//ListPopFront(list);
+	//ListPrint(list);
 
-	ListNode* find1 = ListFind(list, 1);
-	ListNode* find2 = ListFind(list, 0);
-	
-	printf("%d\n", list->_next->_data);
-	printf("%d\n", find1->_prev->_data);
+	//printf("%d\n", list->_next->_data);
 
-	ListInsert(find1, 1);
-	ListPrint(list);
-	ListInsert(find1, 2);
-	ListPrint(list);
+	//ListNode* find1 = ListFind(list, 1);
+	//ListNode* find2 = ListFind(list, 0);
+	//
+	//printf("%d\n", list->_next->_data);
+	//printf("%d\n", find1->_prev->_data);
 
-	ListErase(find1);
-	ListPrint(list);
+	//ListInsert(find1, 1);
+	//ListPrint(list);
+	//ListInsert(find1, 2);
+	//ListPrint(list);
+
+	//ListErase(find1);
+	//ListPrint(list);
 
 	return 0;
 }

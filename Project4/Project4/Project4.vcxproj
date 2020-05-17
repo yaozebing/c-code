@@ -123,7 +123,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sort.c" />
+    <ClCompile Include="queue.c" />
+    <ClCompile Include="sort_bing.c" />
+    <ClCompile Include="stack.c" />
     <ClCompile Include="源.c" />
   </ItemGroup>
   <ItemGroup>

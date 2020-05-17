@@ -155,3 +155,13 @@ void ListErase(ListNode* pos)
 //	q = next;
 //	q->front = q;
 //}
+
+void delete(ListNode* pnode) {
+	if (pnode->_next == NULL) {
+		return false;
+	}
+	ListNode* next = pnode->_next;
+	free(pnode);
+	pnode = next;
+	return true;
+}
