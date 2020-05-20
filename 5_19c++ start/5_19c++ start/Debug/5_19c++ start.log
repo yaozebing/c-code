@@ -1,0 +1,5 @@
+﻿  入门.cpp
+d:\c++\c-code\5_19c++ start\5_19c++ start\入门.cpp(120): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+d:\c++\c-code\5_19c++ start\5_19c++ start\入门.cpp(126): warning C4172: 返回局部变量或临时变量的地址: n
+d:\c++\c-code\5_19c++ start\5_19c++ start\入门.cpp(130): warning C4172: 返回局部变量或临时变量的地址: c
+  5_19c++ start.vcxproj -> D:\c++\c-code\5_19c++ start\Debug\5_19c++ start.exe
