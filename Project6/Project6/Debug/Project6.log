@@ -1,0 +1,3 @@
+﻿  homework.cpp
+d:\c++\c-code\project6\project6\homework.cpp(108): warning C4930: “date d3(void)”: 未调用原型函数(是否是有意用变量定义的?)
+  Project6.vcxproj -> D:\c++\c-code\Project6\Debug\Project6.exe
